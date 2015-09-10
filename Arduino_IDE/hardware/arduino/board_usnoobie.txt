@@ -1,0 +1,37 @@
+##############################################################
+
+usnoobie20m.name=USnooBie (USBaspLoader ATmega328P at 20MHz)
+usnoobie20m.upload.protocol=usbasp
+usnoobie20m.upload.maximum_size=28672
+usnoobie20m.upload.speed=115200
+usnoobie20m.upload.disable_flushing=true
+usnoobie20m.bootloader.low_fuses=0xFF
+usnoobie20m.bootloader.high_fuses=0xD8
+usnoobie20m.bootloader.extended_fuses=0xFF
+usnoobie20m.bootloader.path=usnoobie
+usnoobie20m.bootloader.file=usnoobie_atmega328p_12mhz.hex
+usnoobie20m.bootloader.unlock_bits=0x3F
+usnoobie20m.bootloader.lock_bits=0x0F
+usnoobie20m.build.mcu=atmega328p
+usnoobie20m.build.f_cpu=20000000L
+usnoobie20m.build.core=arduino
+usnoobie20m.build.variant=standard 
+
+##############################################################
+
+usnoobie12m.name=USnooBie (USBaspLoader ATmega328P at 12MHz)
+usnoobie12m.upload.protocol=usbasp
+usnoobie12m.upload.maximum_size=28672
+usnoobie12m.upload.speed=115200
+usnoobie12m.upload.disable_flushing=true
+usnoobie12m.bootloader.low_fuses=0xFF
+usnoobie12m.bootloader.high_fuses=0xD8
+usnoobie12m.bootloader.extended_fuses=0xFF
+usnoobie12m.bootloader.path=usnoobie
+usnoobie12m.bootloader.file=usnoobie_atmega328p_12mhz.hex
+usnoobie12m.bootloader.unlock_bits=0x3F
+usnoobie12m.bootloader.lock_bits=0x0F
+usnoobie12m.build.mcu=atmega328p
+usnoobie12m.build.f_cpu=12000000L
+usnoobie12m.build.core=arduino
+usnoobie12m.build.variant=standard 
